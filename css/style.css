@@ -7,11 +7,12 @@
 .btn{
         font-size: 16px;
         font-weight: 600;
-        background-color: #30B868;
+        background-color: #469165;
         color: white;
         padding: 12px 16px;
         border: none;
         border-radius: 4px;
+         font-family: 'Inter', sans-serif;
     }
 header{
     background-color: rgb(255, 255, 255);
@@ -41,4 +42,68 @@ nav{
     font-weight: 500;
     text-decoration: none;
    }
+   .roundlogo{
+    width: 16px;
+    height: 16px;
+   }
+.titlebox{
+    display: inline-flex;
+    gap: 6px;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    padding: 8px 12px;
+    border-radius: 100px;
+    font-family: 'Inter', sans-serif;
+    color:#30B868; ;
+}
+#banner{
+    font-family: 'Inter', sans-serif;
+    border: 1px solid blue;
+background-image: url("../images/banner.png");
+background-size: cover;
+  background-position: center;
+ 
+ 
+}
+.banner-content{
+    max-width: 1360px;
+     text-align: center;
+   padding-top: 112px;
+   padding-bottom: 178px;
 
+}
+.banner-content h1{
+    font-size: 72px;
+    color: rgb(255, 255, 255);
+    padding-top: 16px;
+    line-height: 84px;   
+
+}
+.banner-content h1 span{
+   color: #30B868;
+}
+.banner-content p{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    padding-top: 16px;
+    line-height: 30px;
+ font-weight: 300;
+ padding-bottom: 32px;
+ 
+}
+.banner-content .button {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  
+}
+.banner-content .button .two {
+ background-color: transparent;
+ font-size: 16px;
+ font-weight: 600;
+ color: white;
+padding: 12px 16px;
+border: 1px solid white;
+border-radius: 4px;
+ font-family: 'Inter', sans-serif;
+}
