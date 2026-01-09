@@ -66,10 +66,11 @@ background-size: cover;
  
 }
 .banner-content{
-    max-width: 1360px;
+    
      text-align: center;
    padding-top: 112px;
    padding-bottom: 178px;
+   
 
 }
 .banner-content h1{
@@ -106,4 +107,55 @@ padding: 12px 16px;
 border: 1px solid white;
 border-radius: 4px;
  font-family: 'Inter', sans-serif;
+}
+
+#card-section .cardhead h1{
+     
+  padding-top: 41px;
+  color: #001931;
+  font-size: 48px ;
+  text-align: center;
+  padding-bottom: 16px;
+  font-family: 'Inter', sans-serif;
+}
+#card-section .cardhead h4{
+
+  color: #627382;
+  font-size: 16px ;
+  text-align: center;
+   font-weight: 300;
+   font-family: 'Inter', sans-serif;
+   padding-bottom: 44px;
+}
+.card{
+    width: 322px;
+    text-align: center;
+    box-shadow: 0 0 17px rgba(144, 143, 143, 0.2);
+
+}
+.card img{
+    padding-top: 68px;
+    padding-bottom: 16px;
+}
+.card h3{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+      color: #001931;
+      padding-bottom: 16px;
+}
+.card p{
+    font-size: 16px;
+     color: #627382;
+         font-family: 'Inter', sans-serif;
+         padding-bottom: 69px;
+         line-height: 20px;
+}
+.card-container{
+    display: flex;
+    gap: 24px;
+     justify-content: center; 
+     flex-wrap: wrap; 
+     padding-bottom: 120px;
+
 }
