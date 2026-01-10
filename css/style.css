@@ -13,7 +13,9 @@
         border: none;
         border-radius: 4px;
          font-family: 'Inter', sans-serif;
+         cursor: pointer;
     }
+   
 header{
     background-color: rgb(255, 255, 255);
    width: 100%;
@@ -57,8 +59,7 @@ nav{
     color:#30B868; ;
 }
 #banner{
-    font-family: 'Inter', sans-serif;
-    border: 1px solid blue;
+ font-family: 'Inter', sans-serif;
 background-image: url("../images/banner.png");
 background-size: cover;
   background-position: center;
@@ -107,6 +108,7 @@ padding: 12px 16px;
 border: 1px solid white;
 border-radius: 4px;
  font-family: 'Inter', sans-serif;
+ cursor: pointer;
 }
 
 #card-section .cardhead h1{
@@ -231,3 +233,43 @@ border-radius: 4px;
  font-weight: 400;
 
   }
+  #footer{
+    background-color: #001931;
+ font-family: 'Inter', sans-serif;
+    
+  }
+  .footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+       max-width: 1360px;
+  margin: 0 auto;
+  padding-top: 120px;
+  padding-bottom: 80px;
+  }
+
+  .socialicone{
+    display: flex;
+    gap: 16px;
+       list-style-type: none;
+  }
+  .socialnam h3{
+    padding-bottom: 16px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+  }
+  .footer-line{
+   
+    border-top: 0.1px solid #323131;
+     max-width: 1360px;
+  margin: 0 auto;
+  }
+  .footer-text{
+text-align: center;
+ margin-top: 30px; 
+ padding-bottom: 30px;
+ font-size: 16px;
+ color: #FAFAFA;
+  }
+
