@@ -156,6 +156,44 @@ border-radius: 4px;
     gap: 24px;
      justify-content: center; 
      flex-wrap: wrap; 
-     padding-bottom: 120px;
+     padding-bottom: 72px;
 
 }
+#herobaner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 120px;
+}
+ #herobaner .one{
+    display: flex;
+    gap: 6px;
+    font-size: 16;
+    font-weight: 500;
+    
+}
+ #herobaner .col{
+    display: flex;
+   flex-direction: column;
+    gap: 16px; 
+}
+ #herobaner .hero-content h4{
+   font-size: 16px;
+   font-weight: 500;
+   color: #469165;
+   padding-bottom: 16px;
+}
+ #herobaner .hero-content h1{
+   font-size: 48px;
+   font-weight: 700;
+   color: #001931;;
+   padding-bottom: 16px;
+ }
+  #herobaner .hero-content p{
+    font-size: 16px;
+     color: #627382;
+    line-height: 20px;
+      padding-bottom: 40px;
+  }
