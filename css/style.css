@@ -188,7 +188,7 @@ border-radius: 4px;
  #herobaner .hero-content h1{
    font-size: 48px;
    font-weight: 700;
-   color: #001931;;
+   color: #001931;
    padding-bottom: 16px;
  }
   #herobaner .hero-content p{
@@ -196,4 +196,38 @@ border-radius: 4px;
      color: #627382;
     line-height: 20px;
       padding-bottom: 40px;
+  }
+  #upperfooter{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding-bottom: 120px;
+  }   
+
+ .upperbody-content {
+    background-color:rgb(247, 246, 242) ;
+    max-width: 1360px;
+    margin: 0 auto;
+  }
+  .upperbody-content h1 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 80px;
+     color: #001931;
+     padding-bottom: 16px;
+
+  }
+   .upperbody-content p {
+   font-size: 16px;
+   color: #627382;
+   line-height: 20px;
+ padding-bottom:24px;
+  }
+   .upperbody-content h3 {
+      font-size: 16px;
+   color: #627382;
+   line-height: 20px;
+   padding-top: 16px;
+ padding-bottom:80px;
+ font-weight: 400;
+
   }
